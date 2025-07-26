@@ -7,7 +7,6 @@ import Contact from './contact.jsx'
 import ScrollVelocity from './components/ScrollVelocity.jsx'
 import BackToTopButton from "./BackToTopButton";
 import Particles from './Particles';
-import AnimatedCursor from './components/AnimatedCursor.jsx'  
 const App = () => {
   const velocity = 50;
   return (
