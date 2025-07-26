@@ -28,7 +28,7 @@ const handleSubmit = (e) => {
     <div className="grid place-items-center px-6 py-16 max-w-3xl mx-auto text-white" id="contact">
       <div className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-20 w-70 border-none rounded-2xl text-4xl grid place-items-center mb-20'>
         <p className="bg-gray-900 h-18 w-68 border-2 rounded-xl border-transparent grid place-items-center font-bold text-white">
-          Contact Me</p>
+          Get In Touch</p>
       </div>
 
       <form
