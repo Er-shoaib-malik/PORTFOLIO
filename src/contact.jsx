@@ -18,7 +18,7 @@ const handleSubmit = (e) => {
   const subject = encodeURIComponent("New Contact Message from Portfolio");
   const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
 
-  const gmailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=er.shoaib.2006@gmail.com&su=${subject}&body=${body}`;
+  const gmailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=er.shoaib.malik.2006@gmail.com&su=${subject}&body=${body}`;
 
   window.open(gmailURL, '_blank');
 };
