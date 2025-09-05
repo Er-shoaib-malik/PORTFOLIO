@@ -6,15 +6,9 @@ import Project from './project.jsx'
 import Contact from './contact.jsx'
 import Footer from './Footer.jsx'
 import ScrollVelocity from './components/ScrollVelocity.jsx'
-<<<<<<< HEAD
-import BackToTopButton from "./components/BackToTopButton.jsx";import Particles from './Particles';
-
-
-
-=======
-import BackToTopButton from "./BackToTopButton";
+import BackToTopButton from "./components/BackToTopButton.jsx";
 import Particles from './Particles';
->>>>>>> cb6c4b717ac431ccda1977e875f64dbbca3a817c
+
 const App = () => {
   const velocity = 50;
   return (

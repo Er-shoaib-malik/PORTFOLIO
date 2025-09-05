@@ -11,35 +11,36 @@ const Contact = () => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-const handleSubmit = (e) => {
-  e.preventDefault();
-  const { name, email, message } = form;
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const { name, email, message } = form;
 
-  const subject = encodeURIComponent("New Contact Message from Portfolio");
-  const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
+    const subject = encodeURIComponent("New Contact Message from Portfolio");
+    const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
 
-  const gmailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=er.shoaib.malik.2006@gmail.com&su=${subject}&body=${body}`;
+    const gmailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=er.shoaib.malik.2006@gmail.com&su=${subject}&body=${body}`;
 
-  window.open(gmailURL, '_blank');
-};
-
+    window.open(gmailURL, '_blank');
+  };
 
   return (
-    <div className="grid place-items-center px-6 py-16 max-w-3xl mx-auto text-white" id="contact">
-<<<<<<< HEAD
-      <div className='bg-gradient-to-r from-orange-400 to-emerald-400 h-20 w-70 border-none rounded-full text-4xl grid place-items-center mb-20'>
-        <p className="bg-gray-900 h-18 w-68 border-2 rounded-full border-transparent grid place-items-center font-bold text-white">
-          Contact Me</p>
-=======
-      <div className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-20 w-70 border-none rounded-2xl text-4xl grid place-items-center mb-20'>
-        <p className="bg-gray-900 h-18 w-68 border-2 rounded-xl border-transparent grid place-items-center font-bold text-white">
-          Get In Touch</p>
->>>>>>> cb6c4b717ac431ccda1977e875f64dbbca3a817c
+    <div
+      className="grid place-items-center px-6 py-16 max-w-3xl mx-auto text-white"
+      id="contact"
+    >
+      {/* Heading */}
+      <div className="flex flex-col items-center gap-6 mb-12">
+        <div className="bg-gradient-to-r from-orange-400 to-emerald-400 h-20 w-60 rounded-full text-4xl grid place-items-center mb-1.5">
+          <p className="bg-gray-900 h-18 w-58 border-2 rounded-full border-transparent grid place-items-center font-bold">
+            Contact Me
+          </p>
+        </div>
       </div>
 
+      {/* Form */}
       <form
         onSubmit={handleSubmit}
-        className="bg-white/5 backdrop-blur-md p-8 rounded-xl border border-white/10 shadow-md space-y-6 w-200"
+        className="bg-white/5 backdrop-blur-md p-8 rounded-xl border border-white/10 shadow-md space-y-6 w-full"
       >
         <div>
           <label className="block mb-2 text-sm font-medium text-gray-300">Name</label>
@@ -82,7 +83,7 @@ const handleSubmit = (e) => {
 
         <button
           type="submit"
-          className="w-full text-black font-semibold bg-gradient-to-r from-orange-400 to-emerald-400 py-2 rounded-md text-lg font-semibold transition hover:scale-105 duration-300"
+          className="w-full text-black bg-gradient-to-r from-orange-400 to-emerald-400 py-2 rounded-md text-lg font-semibold transition hover:scale-105 duration-300"
         >
           Send Message
         </button>

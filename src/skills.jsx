@@ -31,6 +31,7 @@ const Skills = () => {
             </p>
             <div className="flex gap-4 items-center">
             <img src="/c.png" alt="C" className="h-20 hover:scale-110 transition-all duration-250 transition-transform-linear" />
+            <img src="/cpp.svg" alt="C" className="h-20 hover:scale-110 transition-all duration-250 transition-transform-linear" />
             <img src="/python.png" alt="Python" className="h-20 hover:scale-110 transition-all duration-250 transition-transform-linear" />
             </div>
         </div>
