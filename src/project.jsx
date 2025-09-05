@@ -64,7 +64,7 @@ const Project = () => {
             personnel.
           </p>
           <a
-            href="https://github.com/your-username/outpass-system"
+            href="https://github.com/Er-shoaib-malik/hostel"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-gray-300 hover:text-white transition mb-4"
