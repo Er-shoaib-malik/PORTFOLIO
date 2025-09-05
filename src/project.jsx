@@ -6,17 +6,17 @@ const Project = () => {
     {
       title: "Amazon Clone",
       desc: "Developed Amazon frontend using HTML and CSS.",
-      github: "https://github.com/your-username/amazon-clone",
+      github: "https://github.com/Er-shoaib-malik/mini-games/tree/main/amazonclone",
     },
     {
       title: "Scientific Calculator",
       desc: "Built using HTML, CSS, and JavaScript with advanced functions.",
-      github: "https://github.com/your-username/scientific-calculator",
+      github: "https://github.com/Er-shoaib-malik/mini-games/tree/main/calc",
     },
     {
       title: "Mini Games",
       desc: "Created Rock Paper Scissors and Tic Tac Toe using JS.",
-      github: "https://github.com/your-username/mini-games",
+      github: "https://github.com/Er-shoaib-malik/mini-games/tree/main/tictactoe",
     },
   ];
 
