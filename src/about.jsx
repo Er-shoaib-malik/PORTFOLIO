@@ -8,7 +8,7 @@ const about = () => {
   <div>
 
       <div id="about" className='scroll-smooth ml-40 pt-15 text-white mr-35 mt-50 text-4xl text-center grid place-items-center'>
-        <div className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-20 w-50 border-none rounded-2xl text-4xl grid place-items-center mb-20'><p className="bg-gray-900 h-18 w-48 border-2 rounded-xl border-transparent grid place-items-center font-bold">About Me</p></div>
+        <div className='bg-gradient-to-r from-orange-400 to-emerald-400 h-20 w-50 border-none rounded-full text-4xl grid place-items-center mb-20'><p className="bg-gray-900 h-18 w-48 border-2 rounded-full border-transparent grid place-items-center font-bold">About Me</p></div>
         
       <div>
     
@@ -21,7 +21,7 @@ const about = () => {
      and I am currently pursuing Bachelor of Technology in Computer Science Engineering at Jaypee University of Technology.
       I am passionate about leveraging technology to solve complex problems and 
       I am dedicated to continuously enhancing my skills and knowledge in this dynamic field .
-    Right now learning front end development and Data structure and algorithms..
+    Right now learning full stack development and Data structure and algorithms..
     </ScrambledText >
         </div></p>
         

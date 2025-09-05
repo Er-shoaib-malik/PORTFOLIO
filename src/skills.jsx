@@ -4,7 +4,7 @@ import { div } from 'three/tsl';
 const Skills = () => {
   return (
     <div className='grid place-items-center mt-50 p-10'id="skills">
-        <div className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-20 w-50 border-none rounded-2xl text-4xl grid place-items-center mb-20'><p className="bg-gray-900 h-18 w-48 border-2 rounded-xl border-transparent grid place-items-center font-bold text-white">SKILLS</p></div>
+        <div className='bg-gradient-to-r from-orange-400 to-emerald-400 h-20 w-50 border-none rounded-full text-4xl grid place-items-center mb-20'><p className="bg-gray-900 h-18 w-48 border-2 rounded-full border-transparent grid place-items-center font-bold text-white">SKILLS</p></div>
 
         <div
         

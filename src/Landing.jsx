@@ -1,5 +1,6 @@
 import React from "react";
 import TypingText from "./components/TypingText";
+import { Github, Linkedin, Mail, ExternalLink, Sparkles, ArrowRight, Rocket, Download, Code2, Cpu, Palette, Layers } from "lucide-react";
 import { motion } from "framer-motion";
 
 const Landing = () => {
@@ -16,6 +17,8 @@ const Landing = () => {
         </div>
         <p>Pursuing Bachelor's Of Technology From</p>
         <p>Jaypee University Of Information Technology</p>
+        
+
 
         <div className="flex mt-5 gap-2.5">
           <a
@@ -105,7 +108,7 @@ const Landing = () => {
           </a>
         </div>
 
-        <a
+        {/* <a
           href="#about"
           className=" scroll-smooth border-3 animate-bounce
      border-emerald-400 rounded-full h-16 w-16 mt-20 flex text-center place-items-center pl-2.5 text-cyan-300"
@@ -114,8 +117,22 @@ const Landing = () => {
           }}
         >
           <img src="/arrow.png" alt="" className="h-10" />
-        </a>
+        </a> */}
+
+      
+        <div className="pt-4 pb-2">
+          <a 
+            href="/resume.pdf" 
+            download 
+            className="px-4 py-2 bg-gradient-to-r from-orange-400 to-emerald-400 border-none text-black  text-xl rounded-full shadow flex max-w-35"
+          >
+            Resume <Download className="ml-2 h-6 w-5" />
+          </a>
+        </div>
+
       </div>
+
+      
 
       <motion.div
         initial={{ x: 200, y: -200, scale: 0 }}

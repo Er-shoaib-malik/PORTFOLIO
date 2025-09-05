@@ -1,12 +1,15 @@
-import Header from './header.jsx'
+import Header from './Header.jsx'
 import Landing from './Landing.jsx'
 import About from './about.jsx'
 import Skills from './skills.jsx'
 import Project from './project.jsx'
 import Contact from './contact.jsx'
+import Footer from './Footer.jsx'
 import ScrollVelocity from './components/ScrollVelocity.jsx'
-import BackToTopButton from "./BackToTopButton";import Particles from './Particles';
-import AnimatedCursor from './components/AnimatedCursor.jsx'
+import BackToTopButton from "./components/BackToTopButton.jsx";import Particles from './Particles';
+
+
+
 const App = () => {
   const velocity = 50;
   return (
@@ -44,6 +47,7 @@ const App = () => {
 
       <Project/>
       <Contact/>
+      <Footer/>
 
 
     </div>
