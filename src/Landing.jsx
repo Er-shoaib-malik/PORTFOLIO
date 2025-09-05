@@ -90,7 +90,7 @@ const Landing = () => {
             <img src="/x.svg" alt="" className="h-7" />
           </a>
           <a
-            href="#"
+            href="https://www.instagram.com/shoaibmal_.k?igsh=MWsyZ25mMGZteGY1bg=="
             className="h-11 w-11 border-2 border-emerald-400 rounded-full grid place-content-center text-white transition-all duration-300 hover:shadow-lg"
             style={{
               transition: "box-shadow 0.2s ease-in-out",
