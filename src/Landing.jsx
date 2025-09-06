@@ -124,7 +124,7 @@ const Landing = () => {
           <a 
             href="/resume.pdf" 
             download 
-            className="px-4 py-2 bg-gradient-to-r from-orange-400 to-emerald-400 border-none text-black  text-xl rounded-full shadow flex max-w-35"
+            className="px-4 py-2 bg-gradient-to-r from-orange-400 to-emerald-400 border-none text-black  text-xl rounded-full shadow flex max-w-35 hover: text-white"
           >
             Resume <Download className="ml-2 h-6 w-5" />
           </a>
