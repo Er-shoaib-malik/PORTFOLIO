@@ -6,15 +6,15 @@ const Skills = () => {
   // All skills data with progress levels
   const skillsData = [
     { name: "HTML", image: "/html.png", progress: 95, color: "from-orange-500 to-red-500" },
-    { name: "CSS", image: "/css.png", progress: 90, color: "from-blue-500 to-blue-600" },
-    { name: "JavaScript", image: "/js.png", progress: 85, color: "from-yellow-400 to-yellow-600" },
+    { name: "CSS", image: "/css.png", progress: 80, color: "from-blue-500 to-blue-600" },
+    { name: "JavaScript", image: "/js.png", progress: 75, color: "from-yellow-400 to-yellow-600" },
     { name: "React", image: "/react.svg", progress: 80, color: "from-cyan-400 to-blue-500" },
     { name: "Tailwind", image: "/tailwind.svg", progress: 88, color: "from-teal-400 to-blue-500" },
     { name: "Node.js", image: "/node.png", progress: 75, color: "from-green-500 to-green-600" },
     { name: "Express", image: "/ex.svg", progress: 70, color: "from-gray-600 to-gray-800" },
     { name: "C", image: "/c.png", progress: 85, color: "from-blue-600 to-purple-600" },
-    { name: "C++", image: "/cpp.svg", progress: 80, color: "from-blue-500 to-indigo-600" },
-    { name: "Python", image: "/python.png", progress: 78, color: "from-yellow-500 to-blue-500" },
+    { name: "C++", image: "/cpp.svg", progress: 85, color: "from-blue-500 to-indigo-600" },
+    { name: "Python", image: "/python.png", progress: 60, color: "from-yellow-500 to-blue-500" },
     { name: "SQL", image: "/sql.png", progress: 82, color: "from-orange-500 to-red-600" },
     { name: "PHP", image: "/php.png", progress: 65, color: "from-purple-500 to-indigo-600" }
   ];
