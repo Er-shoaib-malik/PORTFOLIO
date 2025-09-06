@@ -12,7 +12,7 @@ const Landing = () => {
         <div>
           <p className="text-2xl">And I'm a</p>
           <p className="text-2xl text-emerald-500 font-semibold">
-            Software Developer
+            Full-Stack Web Developer
           </p>
         </div>
         <p>Pursuing Bachelor's Of Technology From</p>
